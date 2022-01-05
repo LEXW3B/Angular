@@ -1,3 +1,3 @@
 export * from './calculadora.service';
-export * from './componentes';
-export * from './services';
+export * from './calculadora.componentes';
+export * from './calculadora.service';
