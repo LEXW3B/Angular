@@ -2,8 +2,8 @@ import { Hero } from './hero.model';
 
 export const HEROES: Hero[] = [
   { id:  1, name: 'Wolverine'},
-  { id:  3, name: 'Homem Aranha'},
   { id:  2, name: 'Batman'},
+  { id:  3, name: 'Homem Aranha'},
   { id:  4, name: 'Mulher Maravilha'},
   { id:  5, name: 'Pantera Negra'},
   { id:  6, name: 'Mulher Gato'},
