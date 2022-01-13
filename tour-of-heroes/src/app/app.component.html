@@ -1,6 +1,7 @@
 <mat-toolbar color="primary">
   <span>{{ title }}</span>
   <span fxFlex></span>
+
   <button
     mat-icon-button
     matTooltip="Heroes"
@@ -8,6 +9,15 @@
     routerLink="/heroes"
   >
     <mat-icon>sports_martial_arts</mat-icon>
+  </button>
+
+  <button
+    mat-icon-button
+    matTooltip="dashboard"
+    aria-label="dashboard"
+    routerLink="/dashboard"
+  >
+    <mat-icon>dashboard</mat-icon>
   </button>
 </mat-toolbar>
 
