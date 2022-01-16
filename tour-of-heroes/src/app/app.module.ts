@@ -8,13 +8,8 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
-import { MatIconModule } from '@angular/material/icon';
 import { MessagesComponent } from './messages/messages.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule} from '@angular/material/button';
-import { MatExpansionModule } from '@angular/material/expansion';
-import { MatTooltipModule} from '@angular/material/tooltip';
-import { MatCardModule } from '@angular/material/card';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -28,14 +23,9 @@ import { MatCardModule } from '@angular/material/card';
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    MaterialModule,
     FlexLayoutModule,
     AppRoutingModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatExpansionModule,
-    MatIconModule,
-    MatTooltipModule,
-    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
