@@ -1,7 +1,7 @@
-import { Hero } from './../hero.model';
 import {Location} from '@angular/common';
 import { Component, OnInit} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Hero } from './../hero.model';
 import { HeroService } from '../hero.service'
 
 @Component({
@@ -12,7 +12,8 @@ import { HeroService } from '../hero.service'
 export class HeroDetailComponent implements OnInit{
   hero!: Hero;
 
-  constructor(private heroService: HeroService,
+  constructor(
+    private heroService: HeroService,
     private location: Location,
     private route: ActivatedRoute
   ){}
